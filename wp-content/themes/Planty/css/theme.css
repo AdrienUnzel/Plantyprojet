@@ -1,0 +1,69 @@
+
+body {
+   font-family: 'Syne';
+}
+
+h1,h2 {
+   color: #3B8E46;
+   text-align: center;
+   font-family: Syne;
+}
+
+/* On applique un noir sur les paragraphes */
+p {
+   color: #000000;
+}
+/* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
+.hover-effect img {
+   transition: all 0.33s ease-in-out;
+   transform: scale(1) translateY(0px);
+}
+.hover-effect img:hover {
+   transition: all 0.33s ease-in-out;
+   transform: scale(1.05) translateY(-10px);
+}
+
+/*HEADER*/
+
+
+#site-header.sticky-top {
+    position: sticky;
+    flex-shrink: 0;
+    top:0;
+    background-color: #fff;
+}
+
+li.menu-item a {
+   color: #313332 !important;
+   display: flex;
+   width: 114px;
+   height: 19px;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+}
+
+
+.header-titles {
+   width: 201px;
+   height: 19px;
+   flex-shrink: 0;
+}
+
+.header-navigation-wrapper {
+   width: 1440px;
+   height: 80px;
+   flex-shrink: 0;
+}
+
+/*FOOTER*/
+#site-footer {
+   color: #000;
+   text-align: center;
+   font-family: Syne;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   background-color: #fff !important;
+}
