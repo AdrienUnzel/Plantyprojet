@@ -1,17 +1,74 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page*/
 body {
-   font-family: 'Syne';
+   font-family: 'Syne', sans-serif;
+   background: #ECE2DA;
 }
 
-h1,h2 {
+h1 {
    color: #3B8E46;
    text-align: center;
-   font-family: Syne;
+   font-family: 'Syne' !important;
+   font-size: 38px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   text-transform: uppercase;
+}
+
+h2 {
+   width: 487px;
+   color: #3B8E46;
+   text-align: center;
+   font-family: 'Syne' !important;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+h3 {
+   color: #D2776A;
+   text-align: center;
+   font-family: 'Syne'!important;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   text-transform: uppercase;
+}
+
+h4 {
+   color: #3B8E46;
+   text-align: center;
+   font-family: 'Syne';
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   text-transform: uppercase;
+}
+
+h5 {
+   color: #3B8E46;
+   text-align: center;
+   font-family: 'Syne';
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
 }
 
 /* On applique un noir sur les paragraphes */
 p {
-   color: #000000;
+   width: 497px;
+   color: #000;
+   text-align: center;
+   font-family: 'Syne';
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
 }
 /* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
 .hover-effect img {
@@ -27,22 +84,28 @@ p {
 
 
 #site-header.sticky-top {
-    position: sticky;
-    flex-shrink: 0;
-    top:0;
-    background-color: #fff;
+   position: sticky;
+   flex-shrink: 0;
+   top:0;
+   background-color: #fff;
 }
 
 li.menu-item a {
    color: #313332 !important;
    display: flex;
-   width: 114px;
+   width: 167px;
    height: 19px;
    justify-content: center;
    align-items: center;
    flex-shrink: 0;
 }
 
+li.menu-item :hover {
+   width: 236px;
+   height: 80px;
+   flex-shrink: 0;
+   background: #DC9F96;
+}
 
 .header-titles {
    width: 201px;
@@ -50,11 +113,7 @@ li.menu-item a {
    flex-shrink: 0;
 }
 
-.header-navigation-wrapper {
-   width: 1440px;
-   height: 80px;
-   flex-shrink: 0;
-}
+
 
 /*FOOTER*/
 #site-footer {
