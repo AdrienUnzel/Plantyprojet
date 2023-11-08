@@ -3,7 +3,13 @@
 body {
    font-family: 'Syne', sans-serif;
    background: #ECE2DA;
+   
 }
+
+main {
+	display: block;
+}
+
 
 h1 {
    color: #3B8E46;
@@ -14,6 +20,7 @@ h1 {
    font-weight: 800;
    line-height: normal;
    text-transform: uppercase;
+   background: #ECE2DA;
 }
 
 h2 {
@@ -41,7 +48,7 @@ h3 {
 h4 {
    color: #3B8E46;
    text-align: center;
-   font-family: 'Syne';
+   font-family: 'Syne'!important;
    font-size: 30px;
    font-style: normal;
    font-weight: 800;
@@ -52,11 +59,17 @@ h4 {
 h5 {
    color: #3B8E46;
    text-align: center;
-   font-family: 'Syne';
+   font-family: 'Syne'!important;
    font-size: 30px;
    font-style: normal;
    font-weight: 700;
    line-height: normal;
+}
+
+/* Block: Button ----------------------------- */
+.wp-block-button {
+   width: 198px;
+   height: 55px;
 }
 
 /* On applique un noir sur les paragraphes */
@@ -64,12 +77,14 @@ p {
    width: 497px;
    color: #000;
    text-align: center;
-   font-family: 'Syne';
+   font-family: 'Syne' !important;
    font-size: 20px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
 }
+
+
 /* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
 .hover-effect img {
    transition: all 0.33s ease-in-out;
@@ -82,29 +97,44 @@ p {
 
 /*HEADER*/
 
+.header-inner.section-inner {
+   padding-top: 0px;
+   
+}
+
+.section-inner {
+   margin-right: 0px;
+}
 
 #site-header.sticky-top {
    position: sticky;
    flex-shrink: 0;
    top:0;
    background-color: #fff;
+   height: 80px;
+   margin-bottom: 105px;
 }
 
 li.menu-item a {
    color: #313332 !important;
    display: flex;
    width: 167px;
-   height: 19px;
+   height: 80px;
    justify-content: center;
    align-items: center;
    flex-shrink: 0;
 }
 
-li.menu-item :hover {
+li.menu-item-object-category a {
    width: 236px;
    height: 80px;
    flex-shrink: 0;
    background: #DC9F96;
+   color: #fff !important;
+}
+
+li.menu-item-object-category a:hover{
+   background: #C02E44;
 }
 
 .header-titles {
@@ -117,6 +147,8 @@ li.menu-item :hover {
 
 /*FOOTER*/
 #site-footer {
+   
+   height: 60px;
    color: #000;
    text-align: center;
    font-family: Syne;
