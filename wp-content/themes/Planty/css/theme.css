@@ -65,11 +65,36 @@ h5 {
    font-weight: 700;
    line-height: normal;
 }
+/* Block: Image ------------------------------ */
+.wp-block-cover {
+   color: #FFF;
+   text-align: center;
+   font-family: 'Syne' !important;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+
 
 /* Block: Button ----------------------------- */
-.wp-block-button {
-   width: 198px;
+.wp-block-button a {
+   display: flex;
    height: 55px;
+   padding: 9px 57px 9px 56px;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+   text-align: center;
+   font-family: 'Syne' !important;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 37px; /* 246.667% */
+}
+
+.wp-block-button a:hover {
+   background:#C02E44 !important;
 }
 
 /* On applique un noir sur les paragraphes */
@@ -151,7 +176,7 @@ li.menu-item-object-category a:hover{
    height: 60px;
    color: #000;
    text-align: center;
-   font-family: Syne;
+   font-family: 'Syne';
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
