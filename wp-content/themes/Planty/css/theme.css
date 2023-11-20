@@ -2,7 +2,7 @@
 /* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page*/
 body {
    font-family: 'Syne', sans-serif;
-   background: #ECE2DA;
+   
    
 }
 
@@ -24,7 +24,6 @@ h1 {
    font-weight: 800;
    line-height: normal;
    text-transform: uppercase;
-   background: #ECE2DA;
 }
 
 h2 {
@@ -80,6 +79,13 @@ h5 {
    line-height: normal;
 }
 
+.wp-block-image.alignfull.size-full.is-style-default {
+   margin: 0;
+}
+
+.entry-content > .alignwide:not(.wp-block-group.has-background), .entry-content > .alignfull:not(.wp-block-group.has-background){
+   margin: 0;
+}
 
 /* Block: Button ----------------------------- */
 .wp-block-button a {
@@ -95,11 +101,40 @@ h5 {
    font-style: normal;
    font-weight: 400;
    line-height: 37px; /* 246.667% */
+   border-radius: 5px;
+   background: #E0B9B4;
 }
 
 .wp-block-button a:hover {
    background:#C02E44 !important;
 }
+/* Block: Separator ----------------------------- */
+hr.wp-block-separator {
+   width: 860px;
+   height: 1px;
+   color: #FFF;
+}
+
+hr.wp-block-separator::after {
+   display: none;
+}
+
+hr.wp-block-separator::before {
+   display: none;
+}
+
+.entry-content hr, hr.styled-separator {
+   
+}
+/* Block: Forms----------------------------- */
+#wpforms-submit-344 {
+   display: none;
+}
+
+#wpforms-submit-366 {
+   display: none;
+}
+
 
 /* On applique un noir sur les paragraphes */
 .p {
@@ -112,7 +147,6 @@ h5 {
    font-weight: 400;
    line-height: normal;
 }
-
 
 
 /* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
@@ -142,6 +176,7 @@ h5 {
 
 .section-inner {
    margin-right: 0px;
+   
 }
 
 #site-header.sticky-top {
@@ -150,7 +185,7 @@ h5 {
    top:0;
    background-color: #fff;
    height: 80px;
-   margin-bottom: 105px;
+   margin-bottom: auto;
 }
 
 li.menu-item a {
@@ -187,7 +222,12 @@ li.btn-commander a:hover{
 
 
 /*FOOTER*/
-#site-footer { 
+.footer-nav-widgets-wrapper.header-footer-group {
+   margin: 0;
+}
+
+
+.footer-nav-widgets-wrapper {
    display: flex;
    height: 60px;
    padding: 20px 0px 21px 0px;
@@ -195,11 +235,47 @@ li.btn-commander a:hover{
    align-items: center;
    flex-shrink: 0;
    background-color: #fff !important;
+}
+
+.footer-widgets-outer-wrapper {
+   padding: 0px;
+}
+
+
+
+#site-footer { 
+   display: flex;
+   width: 1440px;
+   height: 60px;
+   padding: 20px 0px 21px 0px;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+   background-color: #fff !important;
+   display: none;
    
 }
 
-#site-footer.header-footer-group {
-  margin-top: 0px;
- 
+.wp-elements-362e81862fccb4ee9310d513a4bcdd40 a {
+   color: #000;
+   text-align: center;
+   font-family: 'Syne';
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
 }
 
+/* Couleur d'arrière plan page commander */
+.page-id-48 {
+   background: #3B8E46;
+}
+
+/* Couleur d'arrière plan page d'accueil */
+.page-id-42 {
+   background: #ECE2DA;
+}
+
+.page-id-44 {
+   background: #ECE2DA;
+}
