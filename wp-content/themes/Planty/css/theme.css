@@ -2,13 +2,10 @@
 /* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page*/
 body {
    font-family: 'Syne', sans-serif;
-   
-   
 }
 
 main {
 	display: block;
-   
 }
 
 header.entry-header.has-text-align-center.header-footer-group {
@@ -68,6 +65,16 @@ h5 {
    font-weight: 700;
    line-height: normal;
 }
+
+h6 {
+   color: #FFF;
+   text-align: center;
+   font-family: 'Syne' !important;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
 /* Block: Image ------------------------------ */
 .wp-block-cover {
    color: #FFF;
@@ -77,7 +84,9 @@ h5 {
    font-style: normal;
    font-weight: 800;
    line-height: normal;
+   
 }
+
 
 .wp-block-image.alignfull.size-full.is-style-default {
    margin: 0;
@@ -86,6 +95,48 @@ h5 {
 .entry-content > .alignwide:not(.wp-block-group.has-background), .entry-content > .alignfull:not(.wp-block-group.has-background){
    margin: 0;
 }
+
+.wp-block-columns.alignfull, .alignfull:not(.has-background) .wp-block-columns {
+   align-items: center;
+   justify-content: center;
+}
+
+.wp-image-65 {
+   width: 145px;
+   height: 150px;
+   flex-shrink: 0;
+}
+
+.wp-image-164 {
+   width: 191px;
+   height: 219px;
+   flex-shrink: 0;
+}
+
+.wp-image-69 {
+   width: 192px;
+   height: 128px;
+   flex-shrink: 0;
+}
+
+.wp-image-64 {
+   width: 193px;
+   height: 128px;
+   flex-shrink: 0;
+}
+
+.wp-image-61 {
+   width: 193px;
+   height: 128px;
+   flex-shrink: 0;
+}
+
+.wp-image-63 {
+   width: 193px;
+   height: 128px;
+   flex-shrink: 0;
+}
+
 
 /* Block: Button ----------------------------- */
 .wp-block-button a {
@@ -115,6 +166,11 @@ hr.wp-block-separator {
    color: #FFF;
 }
 
+.entry-content hr, hr.styled-separator {
+   background-color: #FFF !important;
+}
+
+
 hr.wp-block-separator::after {
    display: none;
 }
@@ -123,9 +179,7 @@ hr.wp-block-separator::before {
    display: none;
 }
 
-.entry-content hr, hr.styled-separator {
-   
-}
+
 /* Block: Forms----------------------------- */
 #wpforms-submit-344 {
    display: none;
@@ -135,8 +189,180 @@ hr.wp-block-separator::before {
    display: none;
 }
 
+.wpforms-field-label {
+   font-family: 'Syne' !important;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
 
-/* On applique un noir sur les paragraphes */
+#wpforms-172-field_0 {
+   width: 383px;
+   height: 71px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #FFF;
+   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+#wpforms-172-field_1 {
+   width: 383px;
+   height: 71px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #FFF;
+   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+#wpforms-172-field_2 {
+   width: 383px;
+   height: 237px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #FFF;
+   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+.wpforms-container .wpforms-submit-container {
+   padding: 15px 0px 0px 100px;
+}
+
+#wpforms-submit-172 {
+   display: flex;
+   width: 198px;
+   height: 55px;
+   padding: 9px 0px;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+   border-radius: 5px;
+   background: #E0B9B4;
+   font-family: 'Syne' !important;
+}
+
+
+
+#wpforms-382-field_1 {
+   width: 383px;
+   height: 71px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #FFF;
+   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+#wpforms-382-field_2 {
+   width: 383px;
+   height: 71px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #FFF;
+   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+#wpforms-382-field_3 {
+   width: 383px;
+   height: 71px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #FFF;
+   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+#wpforms-382-field_4 {
+   width: 383px;
+   height: 71px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #FFF;
+   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+#wpforms-382-field_5 {
+   width: 383px;
+   height: 71px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #FFF;
+   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+#wpforms-382-field_6 {
+   width: 383px;
+   height: 71px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #FFF;
+   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+#wpformssubmit-382 {
+   display: flex;
+   width: 198px;
+   height: 55px;
+   padding: 9px 57px 9px 56px;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+   border-radius: 5px;
+   background: #E0B9B4;
+   font-family: 'Syne' !important;
+}
+
+/* -----------------------------formulaire de commande */
+
+label {
+   color: #FFF;
+   font-family: 'Syne';
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.wpcf7-form-control.wpcf7-number {
+   width: 50px;
+   height: 56px;
+   flex-shrink: 0;
+}
+
+input[type="number"] {
+   color: #000;
+   font-family: 'Inter';
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.wpcf7-form-control.wpcf7-text {
+   width: 383px;
+   height: 71px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #FFF;
+   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+
+.wpcf7-form-control.wpcf7-submit.has-spinner {
+   display: flex;
+   width: 198px;
+   height: 55px;
+   padding: 9px 57px 9px 56px;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+   border-radius: 5px;
+   background: #E0B9B4;
+   font-family: 'syne';
+   text-transform: none;
+}
+
+
+
+/* -----------------------------paragraphes */
 .p {
    width: 497px;
    color: #000;
@@ -148,6 +374,29 @@ hr.wp-block-separator::before {
    line-height: normal;
 }
 
+.wp-container-core-group-layout-1.wp-container-core-group-layout-1 {
+   width: 680px;
+   color: #D2776A;
+   text-align: center;
+   font-family: 'Syne' !important;
+   font-size: 38px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   text-transform: uppercase;
+   
+}
+
+.wp-container-core-group-layout-2.wp-container-core-group-layout-2 {
+   width: 669px;
+   color: #000;
+   text-align: center;
+   font-family: 'Syne' !important;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
 
 /* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
 .hover-effect img {
@@ -244,16 +493,7 @@ li.btn-commander a:hover{
 
 
 #site-footer { 
-   display: flex;
-   width: 1440px;
-   height: 60px;
-   padding: 20px 0px 21px 0px;
-   justify-content: center;
-   align-items: center;
-   flex-shrink: 0;
-   background-color: #fff !important;
-   display: none;
-   
+   display: none;  
 }
 
 .wp-elements-362e81862fccb4ee9310d513a4bcdd40 a {
@@ -276,6 +516,7 @@ li.btn-commander a:hover{
    background: #ECE2DA;
 }
 
+/* Couleur d'arrière plan page nous rencontrer */
 .page-id-44 {
    background: #ECE2DA;
 }
