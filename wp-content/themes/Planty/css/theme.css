@@ -110,6 +110,7 @@ h6.wp-block-heading.has-text-align-center.has-small-font-size{
    justify-content: center;
 }
 
+
 .wp-image-65 {
    width: 145px;
    height: 150px;
@@ -420,6 +421,7 @@ input[type=number] {
    text-transform: none;
    margin-left: auto;
    margin-right: auto;
+   margin-top: 44px;
 }
 
 .command-number p{
@@ -464,6 +466,11 @@ p {
    font-style: normal;
    font-weight: 400;
    line-height: normal;
+   margin: 0;
+}
+
+section {
+   padding: 0;
 }
 
 .wp-container-core-group-layout-1.wp-container-core-group-layout-1 {
@@ -565,6 +572,9 @@ li.btn-commander a:hover{
    text-decoration: none;
 }
 
+li.menu-item-900 {
+order: 3;
+}
 
 .img-commande .wp-block-cover.is-light {
    padding: 0;
