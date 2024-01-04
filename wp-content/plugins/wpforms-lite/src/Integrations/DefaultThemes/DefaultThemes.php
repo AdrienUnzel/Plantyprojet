@@ -236,11 +236,11 @@ class DefaultThemes implements IntegrationInterface {
 		}
 
 		?>
-		<style>
+		<!-- <style>
 			#site-content {
 				overflow: visible !important;
 			}
-		</style>
+		</style> -->
 		<?php
 
 		$fixed = true;
