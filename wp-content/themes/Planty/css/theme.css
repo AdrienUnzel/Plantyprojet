@@ -299,29 +299,6 @@ h6.wp-block-heading.has-text-align-center.has-small-font-size{
    left: 55px;
 }
 
-.wp-image-164 {
-   width: 191px;
-   height: 219px;
-   flex-shrink: 0;
-   position: relative;
-   bottom: 150px;
-   right: 5%;
-   margin: 0px;
-   left: 110%;
-}
-
-.img-flower{
-   height: 0px;
-   margin: 0;
-}
-.img-left-form{
-   height: 134px;
-   position: relative;
-   bottom: 255px;
-   left: 320px;
-   z-index: 1;
-}
-
 /*
 .wp-image-69 {
    width: 193px;
@@ -353,12 +330,46 @@ h6.wp-block-heading.has-text-align-center.has-small-font-size{
    background: #ECE2DA;
 }
 
+/* Block: boisson énergisante */
 section.wp-block-group.alignfull.bloc-boisson-energisante.has-background.is-layout-constrained.wp-block-group-is-layout-constrained {
    padding-bottom: 0px;
 }
 
 .bloc-boisson-energisante .wp-block-image {
    margin-bottom: -10%!important;
+}
+
+/* Block: parfum */
+h3.wp-block-heading.alignfull.has-text-align-center.has-background {
+   margin: 0;
+   padding-top: 0;
+   padding-bottom: 7px;
+}
+
+/* Block: fruits */
+.wp-block-cover.aligncenter.is-light.bloc-image-fruit {
+   width: 393px !important;
+   height: 262px;
+   flex-shrink: 0;
+}
+
+h6.wp-block-heading.has-text-align-center.bloc-image-fruit-name {
+   color: #FFF;
+   text-align: center;
+   font-family: 'Syne';
+   font-size: 46px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+
+h6.wp-block-heading.has-text-align-center.bloc-image-fruit-name-pample-mousse {
+   width: 358px !important;
+   height: 116px;
+   margin: 0 !important;
+   padding: 0;
+   font-size: 46px;
+
 }
 
 /* Block: Button */
@@ -382,12 +393,111 @@ section.wp-block-group.alignfull.bloc-boisson-energisante.has-background.is-layo
 
 .wp-block-button a:hover {
    background:#C02E44 !important;
+   text-decoration: none !important;
 }
+
+
+/* Block: Perso */
+.bloc-image-perso {
+   width: 343px;
+   height: 139px;
+   top: 2465px;
+   left: 960px;
+}
+
+.bloc-image-perso-name {
+   color: #3B8E46;
+   font-family: 'Syne' !important;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   top: 2483px; 
+}
+
+h5.wp-block-heading.has-text-align-left.bloc-image-perso-name {
+   margin-bottom: 0;
+}
+
+.bloc-image-perso-p {
+   width: 196px;
+   height: 57px;
+   color: #000;
+   font-family: 'Syne' !important;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   top: 2530px;
+}
+
+.wp-block-group.bloc-image-perso-p.is-layout-constrained.wp-block-group-is-layout-constrained {
+   margin-top: 11px;
+}
+
+.wp-block-media-text .wp-block-media-text__content {
+   margin: 0;
+   padding: 0 0 0 30px;
+}
+
+.wp-block-cover-image .wp-block-cover__inner-container, .wp-block-cover .wp-block-cover__inner-container {
+    width:100%;
+}
+
 
 /*************************** PAGE Nous rencontrer ***************************/
 /* Couleur d'arrière plan page nous rencontrer */
 .page-id-44 {
    background: #ECE2DA;
+}
+
+/* image */
+.img-flower {
+   height: 0px;
+   margin: 0;
+}
+
+/* Block: team*/
+h2.wp-block-heading.has-text-align-center.has-primary-color.has-text-color.has-link-color.wp-elements-48ea0772b2bf2d9f5ed2c1a8f9d90328{
+margin-top: 0;
+margin-bottom: 52px;
+}
+
+.bloc-team {
+   margin-bottom: -9rem;
+}
+
+.bloc-team-name {
+   color: #000;
+   text-align: center;
+   font-family: 'Syne';
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin: -0.5rem 0 0rem !important;
+}
+
+.bloc-team-p {
+   color: #000;
+   text-align: center;
+   font-family: 'Syne';
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+/* image branche */
+.wp-image-164 {
+   width: 191px;
+   height: 219px;
+   flex-shrink: 0;
+   position: relative;
+   bottom: 150px;
+   right: 5%;
+   margin: 0px;
+   left: 110%;
 }
 
 /* Block: Forms*/
@@ -449,6 +559,10 @@ section.wp-block-group.alignfull.bloc-boisson-energisante.has-background.is-layo
    border-radius: 5px;
    background: #E0B9B4;
    font-family: 'Syne' !important;
+}
+
+#wpforms-submit-172:hover {
+   background: #C02E44;
 }
 
 #wpforms-382-field_1 {
@@ -530,20 +644,60 @@ section.wp-block-group.alignfull.bloc-boisson-energisante.has-background.is-layo
    justify-content: center;
 }
 
+/* image formulaire */
+.img-left-form {
+   height: 134px;
+   position: relative;
+   bottom: 255px;
+   left: 320px;
+   z-index: 1;
+}
+
 /*************************** PAGE Commander ***************************/
 /* Couleur d'arrière plan page commander */
 .page-id-48 {
    background: #3B8E46;
 }
 
+/* votre commande */
+.your-order {
+   width: 290px !important;
+   height: 36px;
+   color: #FFF;
+   font-family: 'Syne' !important;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-left: 140px !important;
+   margin-bottom: 0 !important;
+   margin-top: 0 !important;
+}
+
+/* Block: Parfum images */
+.fruits {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0;
+   width: 860px;
+   padding: 0 !important;
+}
+
+/* image */
+.aroma {
+ width: 192px;
+ height: 128px;
+}
+
 /* Block: Separator */
 hr.wp-block-separator {
    max-width: var(--wp--style--global--content-size);
-   width: 100%!important;
+   width: 860px !important;
    height: 1px;
    color: #FFF;
    margin-right: auto;
    margin-left: auto;
+   margin-bottom: 0;
 }
 
 .entry-content hr, hr.styled-separator {
@@ -596,6 +750,12 @@ input[type=number] {
    margin-left: auto;
    margin-right: auto;
    margin-top: 44px;
+   margin-bottom: 93px;
+}
+
+.wpcf7-form-control.wpcf7-submit.has-spinner:hover {
+   background: #C02E44 !important;
+   text-decoration: none !important;
 }
 
 .command-number p{
@@ -618,16 +778,16 @@ input[type=number] {
    padding-left: 50px;
 }
 
-.row span.label-input{
+.row span.label-input {
    margin-bottom: 5px;
    display: inline-block;
 }
 
-.vertical-line{
+.vertical-line {
    width: 1px;
    background-color: white;
    padding-bottom: 0px;
-   margin-bottom: 25px;
+   margin-bottom: 0;
    margin-top: 75px;
 }
 
@@ -642,7 +802,7 @@ label {
 }
 
 .wpcf7-form-control.wpcf7-number {
-   width: 39px;
+   width: 40px;
    height: 56px;
    flex-shrink: 0;
    padding: 1.5rem 1.5rem;
@@ -666,10 +826,42 @@ input[type="number"] {
   }
 }
 
-/* Under 1024px */
-@media only screen and (max-device-width : 1024px) {
-   /* Styles */
-   .wp-image-65{
+/* Under 1003px */
+@media only screen and (max-device-width : 1003px) {
+   .vertical-line {
       display: none;
    }
 }
+
+
+/* Under 1024px */
+@media only screen and (max-device-width : 1024px) {
+   /* Styles */
+   .wp-image-65 {
+      display: none;
+   }
+}
+
+/* Under 1200px */
+@media only screen and (max-device-width : 1200px) {
+   .wp-container-core-columns-layout-1.wp-container-core-columns-layout-1 {
+      flex-direction: column;
+   }
+
+   .wp-image-164 {
+      display: none;
+   }
+
+   .wp-container-core-columns-layout-3.wp-container-core-columns-layout-3 {
+      flex-direction: column;
+   }
+
+   
+
+   .wp-container-core-columns-layout-4.wp-container-core-columns-layout-4 {
+      flex-direction: column;
+      align-items: center !important;
+   }
+
+}
+
