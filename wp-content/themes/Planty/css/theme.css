@@ -272,6 +272,7 @@ h6.wp-block-heading.has-text-align-center.has-small-font-size{
    margin-bottom: -35px;
 }
 
+
 .command-number p {
    display: flex;
    justify-content: space-evenly;
@@ -347,7 +348,7 @@ h3.wp-block-heading.alignfull.has-text-align-center.has-background {
 }
 
 /* Block: fruits */
-.wp-block-cover.aligncenter.is-light.bloc-image-fruit {
+.wp-block-cover.bloc-image-fruit {
    width: 393px !important;
    height: 262px;
    flex-shrink: 0;
@@ -370,6 +371,10 @@ h6.wp-block-heading.has-text-align-center.bloc-image-fruit-name-pample-mousse {
    padding: 0;
    font-size: 46px;
 
+}
+
+.fruit-box .wp-block-column.is-vertically-aligned-center.is-layout-flow.wp-block-column-is-layout-flow {
+   margin-bottom: 0;
 }
 
 /* Block: Button */
@@ -826,6 +831,42 @@ input[type="number"] {
   }
 }
 
+/* Under 541px */
+@media only screen and (max-device-width : 541px) {
+   .bloc-image-perso {
+      display: flex;
+      justify-content: center;
+      
+   }
+}
+
+/* Under 899px */
+@media only screen and (max-device-width : 899px) {
+   .header-inner.section-inner {
+      padding-top: 38px;
+}
+
+}
+
+/* Under 900px */
+@media only screen and (max-device-width : 900px) {
+   .bloc-team {
+      gap: 0;
+      margin-bottom: 10px;
+   }
+
+   hr.wp-block-separator {
+      display: none;
+   }
+
+   .wpcf7-form.init {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+   }
+}
+
 /* Under 1003px */
 @media only screen and (max-device-width : 1003px) {
    .vertical-line {
@@ -843,7 +884,7 @@ input[type="number"] {
 }
 
 /* Under 1200px */
-@media only screen and (max-device-width : 1200px) {
+@media screen and (max-device-width : 1200px) {
    .wp-container-core-columns-layout-1.wp-container-core-columns-layout-1 {
       flex-direction: column;
    }
@@ -856,11 +897,20 @@ input[type="number"] {
       flex-direction: column;
    }
 
-   
-
    .wp-container-core-columns-layout-4.wp-container-core-columns-layout-4 {
       flex-direction: column;
       align-items: center !important;
+   }
+
+   .img-left-form {
+      display: none;
+   }
+
+   .your-order {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      display: flex;
+      justify-content: center;
    }
 
 }
