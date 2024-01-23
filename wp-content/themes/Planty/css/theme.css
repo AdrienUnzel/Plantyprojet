@@ -823,68 +823,8 @@ input[type="number"] {
 }
 
 /*************************** Section responsive ***************************/
-/* Custom size */
-@media only screen and (max-device-width : 703px) {
-   /* Styles */
-   .wp-block-cover.aligncenter.is-light {
-      margin-bottom: 45px;
-  }
-}
-
-/* Under 541px */
-@media only screen and (max-device-width : 541px) {
-   .bloc-image-perso {
-      display: flex;
-      justify-content: center;
-      
-   }
-}
-
-/* Under 899px */
-@media only screen and (max-device-width : 899px) {
-   .header-inner.section-inner {
-      padding-top: 38px;
-}
-
-}
-
-/* Under 900px */
-@media only screen and (max-device-width : 900px) {
-   .bloc-team {
-      gap: 0;
-      margin-bottom: 10px;
-   }
-
-   hr.wp-block-separator {
-      display: none;
-   }
-
-   .wpcf7-form.init {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-content: center;
-   }
-}
-
-/* Under 1003px */
-@media only screen and (max-device-width : 1003px) {
-   .vertical-line {
-      display: none;
-   }
-}
-
-
-/* Under 1024px */
-@media only screen and (max-device-width : 1024px) {
-   /* Styles */
-   .wp-image-65 {
-      display: none;
-   }
-}
-
-/* Under 1200px */
-@media screen and (max-device-width : 1200px) {
+/* On screens that are 1200px or less */
+@media only screen and (max-width: 1200px) {
    .wp-container-core-columns-layout-1.wp-container-core-columns-layout-1 {
       flex-direction: column;
    }
@@ -912,6 +852,159 @@ input[type="number"] {
       display: flex;
       justify-content: center;
    }
-
 }
+
+/* Under 1024px */
+@media only screen and (max-width: 1024px) {
+   /* Styles */
+   .wp-image-65 {
+      display: none;
+   }
+}
+
+/* Under 1003px */
+@media only screen and (max-width: 1003px) {
+   .vertical-line {
+      display: none;
+   }
+}
+
+/* Under 900px */
+@media only screen and (max-width: 900px) {
+   .bloc-team {
+      gap: 0;
+      margin-bottom: 10px;
+   }
+
+   hr.wp-block-separator {
+   display: none;
+}
+
+   .wpcf7-form.init {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+}
+}
+
+/* Under 899px */
+@media only screen and (max-width: 899px) {
+   .header-inner.section-inner {
+      padding-top: 38px;
+}
+}
+
+/* Custom size */
+@media only screen and (max-width: 703px) {
+   /* Styles */
+   .wp-block-cover.aligncenter.is-light {
+      margin-bottom: 45px;
+  }
+}
+
+/* Under 541px */
+@media only screen and (max-width: 541px) {
+   .bloc-image-perso {
+      display: flex;
+      justify-content: center;
+   }
+}
+
+/* Under 375px */
+@media only screen and (max-width: 375px) {
+   h1.wp-block-heading {
+      font-size: 23px !important;
+   }
+   .wp-block-cover.bloc-image-fruit {
+      width: 250px !important;
+      margin-bottom: 0px !important;
+   }
+   h6.wp-block-heading.has-text-align-center.bloc-image-fruit-name{
+      font-size: 30px;
+   }
+   h6.wp-block-heading.has-text-align-center.bloc-image-fruit-name-pample-mousse {
+      width: 230px !important;
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+   }
+
+.wpforms-field-label {
+   margin: auto !important;
+}
+#wpforms-172-field_0 {
+   width: 300px;
+   margin-left: 40px;
+}
+#wpforms-172-field_1 {
+   width: 300px;
+   margin-left: 40px;
+}
+#wpforms-172-field_2 {
+   width: 300px;
+   margin-left: 40px; 
+   margin-right: 40px;
+}
+.row h2 {
+   padding-left: 100px;
+}
+.row span.label-input {
+   margin-left: 25px;
+}
+.wpcf7-form-control.wpcf7-text {
+   width: 300px;
+}
+
+.wpcf7-form-control.wpcf7-submit.has-spinner {
+ margin-left: 145px;
+}
+}
+
+/* Under 320px */
+@media only screen and (max-width: 320px) {
+   h3 {
+      font-size: 25px;
+   }
+   .wp-block-cover.bloc-image-fruit {
+      padding: 0;
+   }
+   .bloc-image-perso {
+      width: 283px;
+   }
+   .wpforms-field-label {
+      margin: auto !important;
+   }
+   #wpforms-172-field_0 {
+      width: 300px;
+      margin-left: 40px;
+   }
+   #wpforms-172-field_1 {
+      width: 300px;
+
+      margin-left: 40px;
+   }
+   #wpforms-172-field_2 {
+      width: 300px;
+      margin-left: 40px; 
+      margin-right: 40px;
+   }
+   .row h2 {
+      padding-left: 100px;
+   }
+   .row span.label-input {
+      margin-left: 25px;
+   }
+   .wpcf7-form-control.wpcf7-text {
+      width: 300px;
+   }
+}
+
+
+
+
+
+
+
+
 
